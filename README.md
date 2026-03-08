@@ -86,3 +86,11 @@ Speech Synthesis → 100 ms
 
 Total Target Latency:
 < 450 ms
+
+## Testing Scenarios
+
+Book appointment → Appointment confirmed  
+Cancel appointment → Booking removed  
+Reschedule appointment → Slot updated  
+Language switching → Agent adapts language  
+Conflict booking → Alternative slot suggested
