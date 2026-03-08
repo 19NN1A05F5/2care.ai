@@ -6,4 +6,7 @@ def process_request(text):
     if "cancel" in text:
         return "Appointment cancelled"
 
+    if "reschedule" in text:
+        return "Appointment rescheduled"
+
     return "Sorry, I couldn't understand the request."
